@@ -1,0 +1,14 @@
+:root {
+  --activebgcol: #1bb489;
+  --activetextcol: #FFFFFF;
+  --headerbgcol: #034ea2;
+  --headertextcol: #FFFFFF;
+  --inputtextcol: #444444;
+  --inputbordercol: #AAAAAA;
+  --errorcol: #F3203D;
+  --lightgray: #ebebeb;
+  --gray: #e0e0e0;
+  --white: #fff;
+  --btndisable: #929497;
+  --dropdown_img: "./assets/images/Dropdown_Image.png";
+}

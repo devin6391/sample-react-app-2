@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--gray);
+  & p{
+    margin: 0;
+  }
+}
+
+.card-box{
+  background-color: var(--white);
+  margin: 27px 27px 20px 27px;
+  border-radius: 5px;
+  & .head{
+    display: flex;
+    height: 42px;
+    border-bottom: 2px solid #eee;
+    & p{
+        margin: auto 17px;
+    }
+  }
+  & .body{
+    min-height: 135px;
+    padding: 0 18px 18px 18px;
+  }
+}
+
+.fixed-btn{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background-color: var(--btndisable);
+  z-index: 10;
+  margin:0 !important;
+  width: 100% !important;
+  & span{
+      color: var(--white);
+      margin: auto;
+  }
+}
+
+.instruction-box{
+  min-height: 80px;
+  width: 260px;
+  border: 1px solid #000;
+}

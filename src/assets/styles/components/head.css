@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 44px;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 27px;
+  background-color: var(--headerbgcol);
+  & .logo{
+    height: 25px;
+    margin: auto 0;
+  }
+  & p{
+    color: #fff;
+    margin: auto 0;
+  }
+}
+.subheader{
+  background-color: var(--lightgray);
+  height: 92px;
+  margin-top: 40px;
+}
+.orderDetailHeader{
+  height: 48px;
+  background-image: url(var(--dropdown_img));
+}

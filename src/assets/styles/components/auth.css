@@ -1,0 +1,29 @@
+.terms-div{
+  display: flex;
+  flex-direction: column;
+  & p, & img{
+    margin: 0 auto;
+  }
+}
+
+.text-center{
+  text-align: center;
+}
+
+.tnc-action{
+  display: flex;
+  background-color: var(--headerbgcol);
+  & button{
+    color: #fff !important;
+    margin: 0 auto !important;
+  }
+}
+
+.otp-verification{
+    display: flex;
+    margin: 0 18px;
+    & input{
+      width: 34px !important;
+      text-align: center;
+    }
+}
